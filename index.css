@@ -1,0 +1,40 @@
+header {
+    background: whitesmoke;
+    color: black;
+    padding: 2rem;
+    font-size: 30px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    width: 80%;        
+  margin: 0 auto;
+}
+
+img {
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+
+    width: 750px;
+    height: auto;
+}
+
+.grid-cntainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
